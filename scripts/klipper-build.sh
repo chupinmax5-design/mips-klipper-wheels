@@ -7,7 +7,7 @@ set -e
 cd /mnt/mipsel-root
 
 # Clone Klipper source
-chroot /mnt/mipsel-root git clone https://github.com/Klipper3d/klipper.git /klipper
+chroot /mnt/mipsel-root git clone https://github.com/KalicoCrew/kalico.git /klipper
 
 # Extract and install packages from install-deps.sh
 chroot /mnt/mipsel-root bash -c '
